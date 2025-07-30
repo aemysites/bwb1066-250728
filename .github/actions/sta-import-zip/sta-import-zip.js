@@ -46,7 +46,7 @@ function createTempDirectory() {
 async function fetchZip(downloadUrl, zipDestination) {
   const response = await fetch(downloadUrl);
   if (!response.ok) {
-    throw new Error(`Failed to download zip. Did the url expire? ${response.status} ${response.statusText}`);
+    throw new Error(`Failed to download zip. Check if the url expired and try again. Contact support if the problem persists. ${response.status} ${response.statusText}`);
   }
 
   try {
@@ -65,25 +65,6 @@ async function fetchZip(downloadUrl, zipDestination) {
 }
 
 /**
- * Get the list of paths from a filter.xml file.
- * @param {string} xmlString
- * @returns {string[]}
- */
-function getFilterPathsSimple(xmlString) {
-  const lines = xmlString.split('\n');
-  const paths = [];
-
-  for (const line of lines) {
-    const match = line.match(/^\s*<filter\s+root="([^"]+)"><\/filter>\s*$/);
-    if (match) {
-      paths.push(match[1]);
-    }
-  }
-
-  return paths;
-}
-
-/**
  * Unzip one file at a time.
  * @param {string} zipPath
  * @param {string} contentsDir
@@ -96,15 +77,8 @@ async function extractZip(zipPath, contentsDir) {
     totalFiles = directory.files.length;
     let extractedFiles = 0;
     let nextProgress = 20;
-    let zipFilePath;
     for (const entry of directory.files) {
       const fullPath = path.join(contentsDir, entry.path);
-      if (extractedFiles < 3 && entry.path.toLowerCase().endsWith('.zip')) {
-        core.setOutput('xwalk_zip', entry.path);
-        core.info(`✅ cp zip: ${entry.path}`);
-        zipFilePath = entry.path;
-      }
-
       if (entry.type === 'Directory') {
         fs.mkdirSync(fullPath, { recursive: true });
       } else {
@@ -124,36 +98,6 @@ async function extractZip(zipPath, contentsDir) {
         core.info(`⏳ Extraction progress: ${progress}% (${extractedFiles}/${totalFiles} files)`);
         nextProgress += 20;
       }
-    }
-
-    if (zipFilePath) {
-      const contentPackageZipPath = path.join(contentsDir, zipFilePath);
-      core.info(`✅ Current Path: ${contentPackageZipPath}`);
-
-      fs.createReadStream(contentPackageZipPath)
-        .pipe(unzipper.ParseOne('META-INF/vault/filter.xml'))
-        .pipe(fs.createWriteStream('filter.xml'))
-        .on('finish', () => {
-          // eslint-disable-next-line no-console
-          console.log('filter.xml extracted successfully');
-
-          // Read the extracted file
-          fs.readFile('filter.xml', 'utf8', (err, data) => {
-            if (err) {
-              // eslint-disable-next-line no-console
-              console.error('Error reading extracted file:', err);
-            } else {
-              // eslint-disable-next-line no-console
-              console.log('Filter XML content:', data);
-              const paths = getFilterPathsSimple(data);
-              core.setOutput('content_paths', paths);
-            }
-          });
-        })
-        .on('error', (error) => {
-          // eslint-disable-next-line no-console
-          console.error('Error extracting filter.xml:', error);
-        });
     }
   } catch (error) {
     throw new Error(`Failed to extract zip: ${error.message || error}`);
@@ -186,6 +130,7 @@ export async function run() {
     const fileCount = await extractZip(zipDestination, contentsDir);
 
     core.setOutput('temp_dir', tempDir);
+    core.setOutput('zip_contents_path', contentsDir);
     core.setOutput('file_count', fileCount);
   } catch (error) {
     core.warning(`❌ Error: ${error.message}`);
