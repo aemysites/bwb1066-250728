@@ -1,0 +1,380 @@
+{
+  "templates": [
+    {
+      "name": "'Corporate Multi-Section Template'",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/about",
+          "uuid": "49904d84ee37996913889ca84bbd73539a1ea746"
+        },
+        {
+          "url": "https://blueyonder.com/about/leadership",
+          "uuid": "02aa3291cd1f6b9d689b0b551ae10be6d90c1b4e"
+        },
+        {
+          "url": "https://blueyonder.com/customers/honda-trading-asia",
+          "uuid": "c183cbe33274c8db36017849cc6d7207e4aa45d8"
+        },
+        {
+          "url": "https://blueyonder.com/media",
+          "uuid": "71ddcd19bc9999399521c41ae73f1911bcbc3c55"
+        },
+        {
+          "url": "https://blueyonder.com/about/diversity",
+          "uuid": "6fa768f376a35972588f37f591a715f4eaef639c"
+        },
+        {
+          "url": "https://blueyonder.com/about/user-groups",
+          "uuid": "e87f9d16053fbc0c97e1b220b4d9cfb1fe3cb9ec"
+        },
+        {
+          "url": "https://blueyonder.com/about/iconic-awards",
+          "uuid": "5ee5116186dc53493c9aa9a976422de0c2c0ae1e"
+        },
+        {
+          "url": "https://blueyonder.com/about/our-culture",
+          "uuid": "f4b707e91718a787685344c5e97bf5ada0f11d4a"
+        },
+        {
+          "url": "https://blueyonder.com/resources/full-pallet-inventory",
+          "uuid": "ff9cdd503b2451c5d40ef30890412aa6eb1477af"
+        },
+        {
+          "url": "https://blueyonder.com/resources/functional-silos-are-holding-you-back-from-the-customer",
+          "uuid": "68422744419f13174e53d2ba0e620900ba905039"
+        },
+        {
+          "url": "https://blueyonder.com/resources/from-static-to-intelligent-5-imperatives-for-the-future-of-cpg-supply-chains",
+          "uuid": "51e2b08fc03de5a851515187b48dfe8bc210c080"
+        },
+        {
+          "url": "https://blueyonder.com/about/global-impact",
+          "uuid": "fda1568bff98ddfcc093e19b103fbdd35a9eb7cb"
+        },
+        {
+          "url": "https://blueyonder.com/about/customer-appreciation-program",
+          "uuid": "7329ffe9d6827aae72461e2ff227035d55d342c0"
+        },
+        {
+          "url": "https://blueyonder.com/blog",
+          "uuid": "05eea97027cc3b921915235b344c6ec3475f5b7d"
+        },
+        {
+          "url": "https://blueyonder.com/customers/henkel",
+          "uuid": "f4f2ec4e6b6f19b110906d95f864efd8551d1a01"
+        },
+        {
+          "url": "https://blueyonder.com/customers/harris-teeter",
+          "uuid": "eedd6045b32b52b4ee066f4a8673471f154c6541"
+        },
+        {
+          "url": "https://blueyonder.com/customers/dsw",
+          "uuid": "09ccec30eab6a22bd0d904b3d333ecc78292a8a8"
+        },
+        {
+          "url": "https://blueyonder.com/customers/infineon-technologies",
+          "uuid": "019528cf9d0b59a59d7d459f211707b7afd1a323"
+        },
+        {
+          "url": "https://blueyonder.com/customers/hewlett-packard-enterprise",
+          "uuid": "3819960c1011efc1511035b9ee0dddfcce00be0e"
+        },
+        {
+          "url": "https://blueyonder.com/about/responsible-ai",
+          "uuid": "ae0f8aba9827efc993a53e26fcc1134250cbf355"
+        }
+      ]
+    },
+    {
+      "name": "'Content Listing Page'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/about/our-culture/dive-in/2025/what-pride-means-to-me",
+          "uuid": "08b3628fa922c20f9d95f6eca549252ce2794bba"
+        },
+        {
+          "url": "https://blueyonder.com/about/our-culture/dive-in/2025/a-life-saving-initiative-blue-yonder-india-associates-give-back-by-hosting-blood-donation-drive",
+          "uuid": "6a5449a50afda70a5c850e4ca5e75f8e25e87156"
+        },
+        {
+          "url": "https://blueyonder.com/about/our-culture/dive-in/2025/breaking-barriers-in-golf-blue-yonder-associate-shares-her-experience-with-fore-the-ladies",
+          "uuid": "dd297350a2394848f182f3c443c4648d86aa35c0"
+        },
+        {
+          "url": "https://blueyonder.com/about/our-culture/dive-in/2025/embracing-diversity-in-stem-insights-from-sarah-cosgriffs-journey",
+          "uuid": "7610cea6270376b1d9b381e40fe099f28f6152d7"
+        },
+        {
+          "url": "https://blueyonder.com/about/our-culture/dive-in/2025/korean-new-years-traditions-a-unique-cultural-celebration",
+          "uuid": "fb16e50ba97264ca30af62be56e2850e0ad08ac1"
+        },
+        {
+          "url": "https://blueyonder.com/about/our-culture/dive-in/2025/two-blue-yonder-associates-share-their-journey-of-motherhood-and-being-working-moms",
+          "uuid": "05a76ea236ed6b29cdf6fa3362eb937e19001b34"
+        }
+      ]
+    },
+    {
+      "name": "'content hub page'",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/blog/2024/dont-just-survive-peak-season",
+          "uuid": "65d1b931e23e15d1785f6c0b9c62ac3121807c27"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/profit-and-planet-two-sides-of-the-same-supply-chain-coin",
+          "uuid": "ec8544e28c26f977efa298d6f5fac9ee428e34e4"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/supercharge-fulfillment-for-a-more-efficient-customer-centric-retail-supply-chain",
+          "uuid": "adafead9832a67414167873dc28e55ec381f3734"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/are-you-serving-todays-shoppers-on-yesterdays-technology",
+          "uuid": "01970516458a2518a4385f6b315c041265b0c5dd"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/save-the-planet-and-the-bottom-line",
+          "uuid": "eef49c7904e7e73d5e5769ffd40add10e39e55e2"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/retailers-beware-returns-fraud-on-the-rise-as-criminals-get-more-creative",
+          "uuid": "568ab52792701fb9c8e92e6803e2a43510b3d4e9"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/5-ways-to-make-your-returns-process-more-profitable",
+          "uuid": "b707549fc14a0347f28221f3ace597fa7cce791e"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/can-chatgpt-pass-the-supply-chain-test",
+          "uuid": "be79e8dcb3097311031ef28e1f9d8c1a197c5afb"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/driving-responsiveness-and-profitability-via-flexible-production-planning",
+          "uuid": "2f693aa2920e7d71ec2f2f40d7508a3b1f471194"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/putting-the-ai-in-availability-2",
+          "uuid": "2611f7a9f5bd85069587fb6398ed26879a4f5d2c"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/speedy-refunds-creating-happy-customers-with-fast-and-effective-returns",
+          "uuid": "d82cd9e367fa1fc44097adf13b4b3120fad5d00a"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/empowering-demand-planners-with-ai",
+          "uuid": "c0cc2becff302f122c57baa3ba953301ca924015"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/from-shortages-to-surpluses-medtech-and-pharmas-demand-planning-remedy",
+          "uuid": "7c20e75b700bac9738553cd06c595bbbcd473890"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/profitability-and-mass-personalization-automakers-can-now-achieve-both",
+          "uuid": "ee80a0c0b78faeac8f2b15e251c3d142cf37ea8e"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/executing-through-uncertainty-react-and-recover-from-disruptions",
+          "uuid": "d52f283dab9814191f82a1506604e79bc494e29a"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/return-fees-or-free-returns-why-not-both",
+          "uuid": "78cd329458dfaba0fc421104c19201fbf6e88ada"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/lsps-need-a-rapid-software-launch",
+          "uuid": "80e4a84dec3066620f1551d92cb1f0cc943364ef"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/its-time-to-unlock-our-supply-chain",
+          "uuid": "3c3fc6b038e7ed1e4e3f391ea9469418bdf8391c"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/leveraging-technology-to-improve-employee-engagement-and-retention",
+          "uuid": "ba48704054470e26fd716b8e2adeb94b1c5bb27e"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/optimize-and-automate-your-planning-and-scheduling-with-blue-yonder",
+          "uuid": "e0082987af1e71dd84ea8a47e94efb7f737ca899"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/from-the-barley-in-the-fields-to-the-beer-in-our-hands-carlsbergs-sustainability-journey",
+          "uuid": "90a51ed1083e073a887ba374de4ff5afae3336ff"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/mitigating-the-risks-of-generative-ai",
+          "uuid": "2ee89151dde3fd8dae82dcd510df0bfe5a0d8933"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/demand-and-supply-planning-is-key-for-consumer-products-manufacturers",
+          "uuid": "f82fb19f9bb8520928d12065113bcde0598f2c20"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/5-steps-to-optimizing-inventory-with-order-management-systems",
+          "uuid": "5e2e8e265212b7efd14727c65c1da8d2957173cd"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/from-aisle-to-ai-how-cpgs-can-conquer-demand-variability",
+          "uuid": "babb4a5a4950d391d91252311860cf2a1e9ec4e8"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/automakers-its-time-to-check-under-the-hood-of-your-demand-planning-solution",
+          "uuid": "d0c1bb8cbd768eeec6ee270e8789ec4635a64342"
+        },
+        {
+          "url": "https://blueyonder.com/blog/2024/6-steps-for-retailers-to-optimize-marketplace-returns-and-protect-their-brand",
+          "uuid": "49382f57c6be43e963df7c084f0c78e79e65066c"
+        }
+      ]
+    },
+    {
+      "name": "'Team Member Profile Page'",
+      "cluster": 4,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/about/leadership/erika-voss",
+          "uuid": "e3558268bf1cb2daae62f39fb28fd92ac84588d6"
+        },
+        {
+          "url": "https://blueyonder.com/about/leadership/brittany-easley",
+          "uuid": "8bb1f8ca2fe9904a0d332bf9468c0171389722d7"
+        },
+        {
+          "url": "https://blueyonder.com/about/leadership/corey-tollefson",
+          "uuid": "48a06ffa71d8f9f7fa708f6183bf5f173cfb5c7e"
+        },
+        {
+          "url": "https://blueyonder.com/about/leadership/salil-joshi",
+          "uuid": "12e3fd267c5e54e5dcebdff8c7d204c51b655b0a"
+        },
+        {
+          "url": "https://blueyonder.com/about/leadership/patricia-harris",
+          "uuid": "bedff57a17db3da4c935dd1a7622cbd056c989d2"
+        },
+        {
+          "url": "https://blueyonder.com/about/leadership/andrea-morgan-vandome",
+          "uuid": "0e578e8d55378c3cec1fd48e0f2126e2a4dddcc6"
+        },
+        {
+          "url": "https://blueyonder.com/about/leadership/duncan-angove",
+          "uuid": "a6286303ee2c9c69f3a4a3aefd7ee51b72ae203d"
+        },
+        {
+          "url": "https://blueyonder.com/about/leadership/mark-henry",
+          "uuid": "e859566df6596f57e37eee1c88a8ae86e906d295"
+        },
+        {
+          "url": "https://blueyonder.com/about/leadership/gurdip-singh",
+          "uuid": "a23d8e59265f13b238f847d6110fbf025c5e5b53"
+        },
+        {
+          "url": "https://blueyonder.com/about/leadership/rebecca-collins",
+          "uuid": "e402246371a2f9d20b4ab825e56f1c7003aa0f21"
+        }
+      ]
+    },
+    {
+      "name": "'Data Table Dashboard'",
+      "cluster": 5,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/events/2025/future-ready-supply-chains-with-ai-enabled-strategies-for-apac",
+          "uuid": "1b4c8b9a8b3310616292c7c78db60b4cec3eec32"
+        },
+        {
+          "url": "https://blueyonder.com/events/2025/fmi-supply-chain-forum",
+          "uuid": "b67edb7cc0d9f26ceef6006715be18863ddccab0"
+        },
+        {
+          "url": "https://blueyonder.com/events/2025/finished-vehicle-logistics",
+          "uuid": "0423fac9ab23297a5f75c92a166c0e3fd76293ad"
+        },
+        {
+          "url": "https://blueyonder.com/events/2025/forum-automotive-logistics",
+          "uuid": "c9c264e9da196d14edd45c9a080cc789e5c60786"
+        },
+        {
+          "url": "https://blueyonder.com/events/2025/fmi-midwinter",
+          "uuid": "5b515918a135653adeb27ae97f6bcdbd8d626867"
+        }
+      ]
+    },
+    {
+      "name": "'Dashboard Overview'",
+      "cluster": 6,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/about/awards-and-recognition",
+          "uuid": "fbbe038e90fd8af481ba56c44dc1f733e9024767"
+        }
+      ]
+    },
+    {
+      "name": "'Corporate Dashboard'",
+      "cluster": 7,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/why-blue-yonder/user-experience",
+          "uuid": "688fabd38bc758694e2983d058a08b2b1e17d1f1"
+        },
+        {
+          "url": "https://blueyonder.com/why-blue-yonder/services",
+          "uuid": "b730ef94f42dfcc513b4635b935e585ea8c5a736"
+        }
+      ]
+    },
+    {
+      "name": "'News Portal'",
+      "cluster": 8,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/industries/wholesale-and-distribution",
+          "uuid": "6735f5517c28d281ecfeab40ea06a15156f11783"
+        }
+      ]
+    },
+    {
+      "name": "'Content Page'",
+      "cluster": 9,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/media/2022/83-of-organisations-have-increased-supply-chain-investments-according-to-blue-yonder-survey",
+          "uuid": "d0b8d3cebfe50861f3b7c2ef54e0c9388fe67050"
+        }
+      ]
+    },
+    {
+      "name": "'E-commerce product listing'",
+      "cluster": 10,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/about/our-culture/dive-in",
+          "uuid": "0f94e2b9b78ddc704a3a77ed5bdd252d59d687a7"
+        }
+      ]
+    },
+    {
+      "name": "'Multi-section informational page'",
+      "cluster": 11,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/legal/code-of-conduct",
+          "uuid": "41af5cf79d54a9096f560de6c3575de386d23b52"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Dashboard",
+      "cluster": 12,
+      "pages": [
+        {
+          "url": "https://blueyonder.com/",
+          "uuid": "9e7603414b86681603d13b3dcc6359102fc0d97d"
+        }
+      ]
+    }
+  ]
+}
