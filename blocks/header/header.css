@@ -5,6 +5,8 @@ header .nav-wrapper {
   z-index: 2;
   position: fixed;
   background: rgb(0 0 0) none repeat scroll 0% 0% / auto padding-box border-box;
+
+    color: white;
 }
 
 header nav {
