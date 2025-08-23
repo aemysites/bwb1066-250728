@@ -446,22 +446,102 @@
       "targetPath": "/resources/functional-silos-are-holding-you-back-from-the-customer",
       "id": "68422744419f13174e53d2ba0e620900ba905039"
     },
-    { "url": "https://blueyonder.com/why-blue-yonder", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/solutions", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/industries", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/why-blue-yonder/ai-and-machine-learning", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/customers", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/resources", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/en/partners", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/why-blue-yonder/end-to-end-planning-and-execution", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/why-blue-yonder/blue-yonder-network", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/why-blue-yonder/data-cloud-and-platform", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/why-blue-yonder/composable-journeys", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/why-blue-yonder/user-experience", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/topic/sustainability", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/about/locations", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/events", "source": "MANUAL" },
-    { "url": "https://blueyonder.com/contact-us", "source": "MANUAL" },
+    {
+      "url": "https://blueyonder.com/why-blue-yonder",
+      "source": "MANUAL",
+      "id": "d0221a7035842b333ba67928ce04a95c8496a827",
+      "targetPath": "/why-blue-yonder"
+    },
+    {
+      "url": "https://blueyonder.com/solutions",
+      "source": "MANUAL",
+      "id": "b263e72331204e5f56ae8eaa7d7e6c5bdc507bdc",
+      "targetPath": "/solutions"
+    },
+    {
+      "url": "https://blueyonder.com/industries",
+      "source": "MANUAL",
+      "id": "fe3adbb1f56a425e20bd4b6d7cd4d4bd54d00139",
+      "targetPath": "/industries"
+    },
+    {
+      "url": "https://blueyonder.com/why-blue-yonder/ai-and-machine-learning",
+      "source": "MANUAL",
+      "id": "6f707e4e4939df269ccaf614ca642dc5b63d3bd7",
+      "targetPath": "/why-blue-yonder/ai-and-machine-learning"
+    },
+    {
+      "url": "https://blueyonder.com/customers",
+      "source": "MANUAL",
+      "id": "c09fc7d6b2612b4abcf32fc175c116a685570bcd",
+      "targetPath": "/customers"
+    },
+    {
+      "url": "https://blueyonder.com/resources",
+      "source": "MANUAL",
+      "id": "c08211ad1f8e8891cc71e5fd83bc177f81c490b3",
+      "targetPath": "/resources"
+    },
+    {
+      "url": "https://blueyonder.com/en/partners",
+      "source": "MANUAL",
+      "id": "babfcdb968abdfad43b9813be13f2bb1bfad9f7d",
+      "targetPath": "/en/partners"
+    },
+    {
+      "url": "https://blueyonder.com/why-blue-yonder/end-to-end-planning-and-execution",
+      "source": "MANUAL",
+      "id": "5f1798cce5bb8f49d9eaf540b80663d8266cc209",
+      "targetPath": "/why-blue-yonder/end-to-end-planning-and-execution"
+    },
+    {
+      "url": "https://blueyonder.com/why-blue-yonder/blue-yonder-network",
+      "source": "MANUAL",
+      "id": "83cf1c3a5b4469d57d6b24d39c4f81d3b8025278",
+      "targetPath": "/why-blue-yonder/blue-yonder-network"
+    },
+    {
+      "url": "https://blueyonder.com/why-blue-yonder/data-cloud-and-platform",
+      "source": "MANUAL",
+      "id": "990f9238e3285f5209279cf3e7fa7ccc3aa4105e",
+      "targetPath": "/why-blue-yonder/data-cloud-and-platform"
+    },
+    {
+      "url": "https://blueyonder.com/why-blue-yonder/composable-journeys",
+      "source": "MANUAL",
+      "id": "f2453ac91b4419b74b91373b798d3d82f230a019",
+      "targetPath": "/why-blue-yonder/composable-journeys"
+    },
+    {
+      "url": "https://blueyonder.com/why-blue-yonder/user-experience",
+      "source": "MANUAL",
+      "id": "688fabd38bc758694e2983d058a08b2b1e17d1f1",
+      "targetPath": "/why-blue-yonder/user-experience"
+    },
+    {
+      "url": "https://blueyonder.com/topic/sustainability",
+      "source": "MANUAL",
+      "id": "2bcc969f2f23fd217599de8da502038ddc302f81",
+      "targetPath": "/topic/sustainability"
+    },
+    {
+      "url": "https://blueyonder.com/about/locations",
+      "source": "MANUAL",
+      "id": "2d9081272f4e7e10df69b9d84cddff3ae03040af",
+      "targetPath": "/about/locations"
+    },
+    {
+      "url": "https://blueyonder.com/events",
+      "source": "MANUAL",
+      "id": "16d5e6e7564a6798148d589d827a62bcaa257c54",
+      "targetPath": "/events"
+    },
+    {
+      "url": "https://blueyonder.com/contact-us",
+      "source": "MANUAL",
+      "id": "a757e3c621cd71de88c7e7447e42f149dff82473",
+      "targetPath": "/contact-us"
+    },
     {
       "url": "https://blueyonder.com/why-blue-yonder/services",
       "source": "SITEMAPS",
