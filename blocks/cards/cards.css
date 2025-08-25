@@ -25,3 +25,114 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+
+.cards.cards44 {
+  background: none;
+}
+
+.cards.cards44 > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  max-width: 1200px;
+  width: 100%;
+}
+
+@media (width <= 900px) {
+  .cards.cards44 > ul {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+}
+
+.cards.cards44 > ul > li {
+  background: #fff;
+  border: 1px solid #231F20;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 24px;
+  max-width: 360px;
+  min-width: 240px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.cards.cards44 .cards-card-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 170px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.cards.cards44 .cards-card-image img {
+  width: auto;
+  max-width: 170px;
+  max-height: 170px;
+  object-fit: contain;
+  display: block;
+}
+
+.cards.cards44 .cards-card-body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards.cards44 .cards-card-body h3 {
+  color: #231F20;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 2px;
+  line-height: 1.16;
+  font-family: var(--heading-font-family);
+}
+
+.cards.cards44 .cards-card-body p {
+  color: #231F20;
+  font-size: 14px;
+  margin: 0 0 2px;
+  line-height: 1.35;
+  font-family: var(--body-font-family);
+}
+
+.cards.cards44 .cards-card-body .button-container {
+  margin-top: 4px;
+  margin-bottom: 0;
+  padding: 0;
+  align-self: flex-start;
+}
+
+.cards.cards44 .cards-card-body .button {
+  margin-bottom: 0;
+  font-size: 13px;
+  color: #001A70;
+  font-weight: 500;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  padding: 0;
+  line-height: 1.4;
+  box-shadow: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cards.cards44 .cards-card-body .button:focus {
+  outline: 2px solid #001A70;
+  outline-offset: 2px;
+}
+
+.cards.cards44 .cards-card-body > *:last-child {
+  margin-bottom: 0;
+}
