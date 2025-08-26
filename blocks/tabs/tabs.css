@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .tabs .tabs-list {
   display: flex;
   gap: 0.5ch;
@@ -55,4 +56,271 @@
 
 .tabs .tabs-panel[aria-hidden='true'] {
   display: none;
+}
+
+
+.tabs.tabs39 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 1200px;
+  padding: 48px 0;
+  margin: 0 auto;
+  background: #081a52;
+  gap: 56px;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs39 {
+    flex-direction: column;
+    gap: 0;
+    padding: 32px 0;
+  }
+}
+
+/* -- Navigation (Left) -- */
+.tabs.tabs39 .tabs-list {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  min-width: 240px;
+  padding: 0 8px 0 32px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  gap: 0;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs39 .tabs-list {
+    width: 100%;
+    min-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 32px;
+  }
+}
+
+.tabs.tabs39 .tabs-list button {
+  background: none;
+  border: none;
+  color: #fff;
+  text-align: left;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+  min-height: 48px;
+  transition: background 0.2s, color 0.2s;
+  border-radius: 0;
+  padding: 0;
+  letter-spacing: 0.01em;
+  line-height: 1.7;
+}
+
+.tabs.tabs39 .tabs-list button:not(:last-child) {
+  border-bottom: 1px dotted #fff;
+}
+
+.tabs.tabs39 .tabs-list button p {
+  margin: 0;
+  padding: 15px 16px 15px 0;
+  font-size: 19px;
+  color: inherit;
+  font-weight: inherit;
+}
+
+/* Active tab style */
+.tabs.tabs39 .tabs-list button[aria-selected="true"] {
+  background: #38c4ff;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  min-height: 54px;
+}
+
+.tabs.tabs39 .tabs-list button[aria-selected="true"] p {
+  color: #fff;
+  font-weight: 700;
+}
+
+/* -- Card Panel (Right) -- */
+.tabs.tabs39 .tabs-panel {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.tabs.tabs39 .tabs-panel[aria-hidden="true"] {
+  display: none;
+}
+
+.tabs.tabs39 .tabs-panel[aria-hidden="false"] {
+  display: flex;
+}
+
+.tabs.tabs39 .tabs-panel > div {
+  position: relative;
+  background: #22232A;
+  border-radius: 22px;
+  box-shadow: 0 14px 40px 0 rgb(0 0 0 / 36%);
+  max-width: 510px;
+  min-width: 340px;
+  margin-top: 38px;
+  margin-bottom: 24px;
+  margin-right: 0;
+  padding: 0;
+  display: block;
+  flex: 1 1 0px;
+  height: 620px;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs39 .tabs-panel > div {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 32px;
+    min-width: 0;
+  }
+}
+
+/* Card image: fill card, be behind overlay */
+.tabs.tabs39 .tabs-panel > div > p:has(picture),
+.tabs.tabs39 .tabs-panel > div picture {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.tabs.tabs39 .tabs-panel > div picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: 0 10px 36px rgb(0 0 0 / 36%);
+  transform: rotate(-8deg);
+  background: none;
+}
+
+/* --- Overlay stacking: create overlay at bottom of card using flex --- */
+
+/* Simulate bottom overlay by absolutely positioning all elements */
+.tabs.tabs39 .tabs-panel > div h3 {
+  position: absolute;
+  left: 36px;
+  right: 36px;
+  bottom: 110px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+.tabs.tabs39 .tabs-panel > div > p:not(.button-container, :has(picture)) {
+  position: absolute;
+  left: 36px;
+  right: 36px;
+  bottom: 66px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #fff;
+  margin: 0;
+  opacity: 0.97;
+  padding: 0;
+  z-index: 2;
+}
+
+.tabs.tabs39 .tabs-panel > div .button-container {
+  position: absolute;
+  left: 36px;
+  right: auto;
+  bottom: 24px;
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+/* Button inside overlay */
+.tabs.tabs39 .tabs-panel > div .button-container a.button {
+  background: #38c4ff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 11px 28px;
+  border-radius: 22px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgb(56 196 255 / 9%);
+  border: none;
+  margin: 0;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Hide redundant paragraphs (those only wrapping <picture>) */
+.tabs.tabs39 .tabs-panel > div > p:has(picture) {
+  position: absolute;
+  inset: 0;
+  inset: 0;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  z-index: 0;
+  display: block;
+}
+
+/* --- Overlay gradient: covers bottom of card behind overlay text --- */
+.tabs.tabs39 .tabs-panel > div::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 60%;
+  background: linear-gradient(to top, rgb(0 0 0 / 96%) 98%, rgb(0 0 0 / 20%) 100%);
+  z-index: 1;
+  pointer-events: none;
+  content: "";
+}
+
+/* Responsiveness for overlay spacing */
+@media (width <= 600px) {
+  .tabs.tabs39 .tabs-panel > div h3,
+  .tabs.tabs39 .tabs-panel > div > p:not(.button-container, :has(picture)),
+  .tabs.tabs39 .tabs-panel > div .button-container {
+    left: 16px;
+    right: 16px;
+    max-width: calc(100% - 32px);
+  }
+
+  .tabs.tabs39 .tabs-panel > div {
+    height: 420px;
+  }
+}
+
+/* Ensure no extra margins for overlay text */
+.tabs.tabs39 .tabs-panel > div h3,
+.tabs.tabs39 .tabs-panel > div > p:not(.button-container, :has(picture)),
+.tabs.tabs39 .tabs-panel > div .button-container {
+  margin-top: 0;
+  margin-bottom: 0;
 }
