@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -135,4 +136,136 @@
 
 .cards.cards44 .cards-card-body > *:last-child {
   margin-bottom: 0;
+}
+
+
+.cards.cards40 {}
+
+/* Grid layout: tighter (dense) gap, 4 columns desktop */
+.cards.cards40 > ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (width <= 1100px) {
+  .cards.cards40 > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width <= 700px) {
+  .cards.cards40 > ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Card: very compact, minimal shadow, nearly square corners */
+.cards.cards40 > ul > li {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  border: none;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 2%);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+/* Image section: taller for best proportion */
+.cards.cards40 .cards-card-image {
+  height: 170px;
+  width: 100%;
+  background: #011c54;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.cards.cards40 .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Card body: minimum padding for compactness */
+.cards.cards40 .cards-card-body {
+  background: #011c54;
+  padding: 10px 12px 4px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+}
+
+/* Heading: tight margin and size */
+.cards.cards40 .cards-card-body h3 {
+  color: #1fb4ff;
+  font-size: 1.12rem;
+  font-weight: 500;
+  margin: 0 0 2px;
+  line-height: 1.20;
+}
+
+/* Body text: as tight as possible */
+.cards.cards40 .cards-card-body p {
+  color: #fff;
+  font-size: 0.97rem;
+  margin: 0 0 6px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+/* Button row: left aligned, minimal height */
+.cards.cards40 .cards-card-body .button-container {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 20px;
+}
+
+/* Button: tight, left-aligned, override background */
+.cards.cards40 .cards-card-body .button {
+  background: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  gap: 2px;
+}
+
+/* Button circle: small, perfectly vertically aligned */
+.cards.cards40 .cards-card-body .button::after {
+  display: inline-block;
+  vertical-align: middle;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #1fb4ff;
+  align-self: center;
+  margin-left: 2px;
+}
+
+/* Responsive: adjust image/body padding and height */
+@media (width <= 900px) {
+  .cards.cards40 .cards-card-image {
+    height: 80px;
+  }
+
+  .cards.cards40 .cards-card-body {
+    padding: 6px 5px 2px;
+  }
 }
