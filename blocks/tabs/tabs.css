@@ -222,7 +222,7 @@
   position: absolute;
   left: 36px;
   right: 36px;
-  bottom: 110px;
+  bottom: 160px;
   font-size: 32px;
   font-weight: 800;
   color: #fff;
@@ -304,7 +304,7 @@
 
 /* Responsiveness for overlay spacing */
 @media (width <= 600px) {
-  .tabs.tabs39 .tabs-panel > div h3,
+  .tabs.tabs39 .tabs-panel > div ,
   .tabs.tabs39 .tabs-panel > div > p:not(.button-container, :has(picture)),
   .tabs.tabs39 .tabs-panel > div .button-container {
     left: 16px;
