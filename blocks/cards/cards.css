@@ -139,9 +139,10 @@
 }
 
 
-.cards.cards40 {}
+.cards.cards40 {
+  display: block;
+}
 
-/* Grid layout: tighter (dense) gap, 4 columns desktop */
 .cards.cards40 > ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -163,7 +164,6 @@
   }
 }
 
-/* Card: very compact, minimal shadow, nearly square corners */
 .cards.cards40 > ul > li {
   display: flex;
   flex-direction: column;
@@ -174,7 +174,6 @@
   overflow: hidden;
 }
 
-/* Image section: taller for best proportion */
 .cards.cards40 .cards-card-image {
   height: 170px;
   width: 100%;
@@ -193,7 +192,6 @@
   display: block;
 }
 
-/* Card body: minimum padding for compactness */
 .cards.cards40 .cards-card-body {
   background: #011c54;
   padding: 10px 12px 4px;
@@ -203,7 +201,6 @@
   justify-content: flex-start;
 }
 
-/* Heading: tight margin and size */
 .cards.cards40 .cards-card-body h3 {
   color: #1fb4ff;
   font-size: 1.12rem;
@@ -212,7 +209,6 @@
   line-height: 1.20;
 }
 
-/* Body text: as tight as possible */
 .cards.cards40 .cards-card-body p {
   color: #fff;
   font-size: 0.97rem;
@@ -221,7 +217,6 @@
   line-height: 1.35;
 }
 
-/* Button row: left aligned, minimal height */
 .cards.cards40 .cards-card-body .button-container {
   margin-top: auto;
   display: flex;
@@ -231,7 +226,6 @@
   min-height: 20px;
 }
 
-/* Button: tight, left-aligned, override background */
 .cards.cards40 .cards-card-body .button {
   background: none;
   color: #fff;
@@ -247,7 +241,6 @@
   gap: 2px;
 }
 
-/* Button circle: small, perfectly vertically aligned */
 .cards.cards40 .cards-card-body .button::after {
   display: inline-block;
   vertical-align: middle;
@@ -259,7 +252,6 @@
   margin-left: 2px;
 }
 
-/* Responsive: adjust image/body padding and height */
 @media (width <= 900px) {
   .cards.cards40 .cards-card-image {
     height: 80px;
@@ -267,5 +259,119 @@
 
   .cards.cards40 .cards-card-body {
     padding: 6px 5px 2px;
+  }
+}
+
+
+.cards.cards31 {
+  background-color: #f5f6f7;
+  padding: 48px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Flex row for cards */
+.cards.cards31 > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 32px;
+  max-width: 900px;
+  margin-left: 64px;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+}
+
+/* Card sizing and content flow */
+.cards.cards31 > ul > li {
+  background: #fff;
+  border: 1px solid #232a36;
+  border-radius: 8px;
+  padding: 22px 32px 32px;  /* Less top padding for higher content */
+  min-width: 400px;
+  max-width: 440px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+}
+
+/* Analyst logo section: prominent, centered, minimal extra space */
+.cards.cards31 .cards-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  min-height: 0;
+  padding-top: 0;
+}
+
+/* Make logos visible and proportionate */
+.cards.cards31 .cards-card-image img,
+.cards.cards31 .cards-card-image picture {
+  max-width: 180px;
+  max-height: 56px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Card body styling and vertical spacing */
+.cards.cards31 .cards-card-body {
+  color: #172057;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin: 0;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Tighten spacing between paragraphs */
+.cards.cards31 .cards-card-body p {
+  margin: 0 0 6px;
+}
+
+/* Button section */
+.cards.cards31 .button-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.cards.cards31 .button-container .button {
+  background: #00b3e6;
+  color: #172057;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 24px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  box-shadow: none;
+  min-width: 120px;
+  min-height: 40px;
+}
+
+@media (width <= 900px) {
+  .cards.cards31 > ul {
+    flex-direction: column;
+    gap: 24px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cards.cards31 > ul > li {
+    min-width: 0;
+    max-width: 100%;
+    padding: 20px 16px;
   }
 }
